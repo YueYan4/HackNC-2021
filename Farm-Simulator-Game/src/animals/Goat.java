@@ -1,0 +1,20 @@
+package animals;
+
+import main.Animal;
+
+/**
+ * Goat class extending the Animal class.
+ */
+public class Goat extends Animal
+{
+	
+	/**
+	 * Goat constructor which takes an initial animal happiness.
+	 * @param initAnimalHappiness The goat's initial happiness
+	 */
+	public Goat(double initAnimalHappiness)
+	{
+		super("Goat", 25.0, initAnimalHappiness, 30.0); //Name, purchase price, initial happiness, initial daily money made
+	}
+
+}
